@@ -1,3 +1,5 @@
-This Hotel Management Website is used for digitalising the booking and other works in a hotel so that user gets a interactive and seemingless experience in the hotel. The website is made from HTML, CSS and Jscript, making it interactive anduser friendly. 
-Heres the glimpse of home page:
+This hotel management website is designed to digitize the booking process and streamline other operations within a hotel, ensuring users have an interactive and seamless experience. The website is built using HTML, CSS, and JavaScript, making it both interactive and user-friendly.
 
+Here’s a preview of the homepage:
+
+The website also allows users to check the availability of rooms. Here’s a glimpse of that feature:
