@@ -10,6 +10,11 @@
   --max-width: 1200px;
   --header-font: "Playfair Display", serif;
 }
+#h2{
+  color: aliceblue;
+}#h4{
+  color:aliceblue;
+}
 
 * {
   padding: 0;
@@ -27,7 +32,10 @@
   margin-bottom: 0.5rem;
   font-size: 1rem;
   font-weight: 500;
-  color: var(--text-light);
+  color: wheat;
+}
+.section__subheader{
+  color: aliceblue;
 }
 
 .section__header {
@@ -152,7 +160,7 @@ nav {
 }
 
 .nav__links a {
-  color: var(--text-light);
+  color: black;
   transition: 0.3s;
 }
 
@@ -166,7 +174,7 @@ nav {
       rgba(15, 26, 44, 0.5),
       rgba(15, 26, 44, 0.5)
     ),
-    url("assets/header.jpg");
+    url("asset2/img\ 3.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -234,7 +242,7 @@ nav {
   right: 0;
   height: 75%;
   width: 100%;
-  background-image: url("assets/about-bg.jpg");
+  background-image: url("assets2/img 1.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -801,77 +809,4 @@ nav {
   .news__grid {
     gap: 2rem;
   }
-}
-#guests {
-  color: white; /* Set text color to white */
-  background-color: transparent; /* Optional: make background transparent */
-  border: 1px solid white; /* Optional: set border color to white */
-}
-.input__group {
-  margin-bottom: 15px; /* Space between input groups */
-}
-
-.input__group input {
-  width: 200px; /* Set a specific width for the input fields */
-  padding: 10px; /* Add some padding */
-  border: 1px solid white; /* Set border color to white */
-  color: white; /* Set text color to white */
-  background-color: transparent; /* Make background transparent */
-}
-.input__group label {
-  color: white; /* Set label color to white */
-}
-
-/* Optional: Style for the calendar icon if using an icon library */
-input[type="date"]::-webkit-calendar-picker-indicator {
-  background-color: white; /* Change the calendar icon color to white */
-  border-radius: 50%; /* Optional: make it circular */
-  padding: 5px; /* Optional: add some padding */
-}
-.header {
-  display: flex; /* Use flexbox */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  height: 100vh; /* Full viewport height */
-  text-align: center; /* Center text */
-}
-
-#availability-form {
-  display: flex; /* Use flexbox for the form */
-  flex-direction: column; /* Stack inputs vertically */
-  align-items: center; /* Center inputs */
-  background-color: rgba(0, 0, 0, 0.5); /* Optional: add a background for better visibility */
-  padding: 20px; /* Add some padding */
-  border-radius: 10px; /* Optional: round the corners */
-}
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
-  margin: 0; /* Remove default margin */
-}
-
-.header {
-  flex: 1; /* Allow the header to grow and take available space */
-  display: flex; /* Use flexbox */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  text-align: center; /* Center text */
-  padding: 20px; /* Add some padding */
-}
-
-#availability-form {
-  display: flex; /* Use flexbox for the form */
-  flex-direction: column; /* Stack inputs vertically */
-  align-items: center; /* Center inputs */
-  background-color: rgba(0, 0, 0, 0.5); /* Optional: add a background for better visibility */
-  padding: 20px; /* Add some padding */
-  border-radius: 10px; /* Optional: round the corners */
-}
-
-.footer {
-  background-color: #333; /* Example footer background color */
-  color: white; /* Footer text color */
-  padding: 20px; /* Add padding to the footer */
-  text-align: center; /* Center footer text */
 }
