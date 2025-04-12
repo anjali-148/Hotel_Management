@@ -6,4 +6,4 @@ Here’s a preview of the homepage:
 
 The website also allows users to check the availability of rooms. Here’s a glimpse of that feature:
 
-![image alt](
+![image alt](https://github.com/anjali-148/Hotel_Management/blob/d94d4087ef75d5cfa3da7069c073002acf516839/Screenshot%202025-04-12%20205051.png)
