@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+#unique-feature {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#gallery {
+    margin-top: 20px;
+}
+
+.gallery {
+    display: flex; /* Use flexbox for horizontal layout */
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    padding: 10px 0; /* Add some vertical padding */
+}
+
+figure {
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 0 0 auto; /* Prevent flex items from shrinking */
+}
+
+figure img {
+    width: 400px; /* Fixed width for images */
+    height: 400px; /* Fixed height for images */
+}
+
+figcaption {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f9f9f9;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+                   

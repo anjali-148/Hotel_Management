@@ -57,4 +57,7 @@ document.querySelector("#book_now").addEventListener("click",fun);
 function fun(){
   window.location.href = "/Registration form.html";
 }
-
+document.querySelector("#taketour").addEventListener("click",tour);
+function tour(){
+  window.location.href = "/tour/aa.html";
+}
