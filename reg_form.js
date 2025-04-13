@@ -1,5 +1,5 @@
 // Initialize the room variable
-var room = 0;
+ var room = 0;
 
 // Show the registration form when the "Book Now" button is clicked
 document.getElementById('bookNowBtn').addEventListener('click', function() {
@@ -20,7 +20,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
     var noofroom = parseInt(document.getElementById('rooms').value) || 0; // Convert to integer
     console.log(noofroom);
     // Check if rooms are available
-    if (room >100) {
+    if (room > 100) {
         alert("Rooms are not available");
     } else {
         // Update the room count

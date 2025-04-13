@@ -116,7 +116,7 @@
 
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="main.js"></script>
-  <script src = "reg_form.js">
+  <script src = >
       document.getElementById('availability-form').addEventListener('submit', function(event) {
           event.preventDefault(); // Prevent the form from submitting normally
 
@@ -138,7 +138,7 @@
           // Simulate a delay for the availability check
           setTimeout(() => {
               // Here you would typically check against a database or API
-              const isAvailable = room < 100; // Randomly simulate availability
+              const isAvailable = Math.random() > 0.5; // Randomly simulate availability
 
               if (isAvailable) {
                   resultDiv.innerHTML = `<p>Great news! Rooms are available for your selected dates.</p>`;
