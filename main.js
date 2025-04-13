@@ -52,3 +52,9 @@ ScrollReveal().reveal(".news__card", {
   ...scrollRevealOption,
   interval: 500,
 });
+
+document.querySelector("#book_now").addEventListener("click",fun);
+function fun(){
+  window.location.href = "/Registration form.html";
+}
+
