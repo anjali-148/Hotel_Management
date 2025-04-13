@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="regform.css">
+    <title>Hotel Booking</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="header">Welcome to Our Hotel</h1>
+        <button id="bookNowBtn">Book Now</button>
+        
+        
+        <div id="registrationForm" class="form-container" style="display: none;">
+            <h2>Registration Form</h2>
+            <form id="form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="checkin">Check-in Date:</label>
+                <input type="date" id="checkin" name="checkin" required>
+
+                <label for="checkout">Check-out Date:</label>
+                <input type="date" id="checkout" name="checkout" required>
+
+                <label for="rooms">Number of Rooms:</label>
+                <input type="number" id="rooms" name="rooms" min="1" required>
+
+                <button type="submit">Submit</button>
+                <button type="button" id="closeFormBtn">Close</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="reg_form.js"></script>
+</body>
+</html>
